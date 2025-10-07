@@ -1,3 +1,4 @@
+//Activity 2
 <?php
 
 $weather = "Windy";
@@ -14,3 +15,4 @@ if ($weather == "Sunny") {
 
 
 ?>
+
