@@ -1,4 +1,4 @@
-
+// Activity 3
 <?php
 $grade = "1";
 
@@ -23,4 +23,5 @@ switch ($grade) {
         break;
 }
 ?>
+
 
