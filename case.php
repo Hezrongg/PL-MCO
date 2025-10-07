@@ -1,31 +1,21 @@
 <?php
+$grade = "1";
 
-$day = "N";
-
-switch ($day) {
-    case 'Monday':
-        echo "Start of the week";
+switch ($grade) {
+    case '1':
+        echo "Excellent";
         break;
-     case 'Tuesday':
-        echo "Second Day";
+     case '2':
+        echo "Very Good";
         break;
-    case 'Wednesday':
-        echo "Third day";
+    case '3':
+        echo "Satisfactory";
         break;
-    case 'Thursday':
-        echo "Fourth Day";
+    case '4':
+        echo "Needs Improvement";
         break;
-    case 'Friday':
-        echo "Fifth";
-        break;
-    case 'Saturday':
-        echo "Sixth day";
-        break;
-    case 'Sunday':
-        echo "Last Day";
-        break;
-    default:
-        echo "Nothing";
+    case '5':
+        echo "Failed";
         break;
 }
 ?>
