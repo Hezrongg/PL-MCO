@@ -1,3 +1,4 @@
+
 <?php
 $grade = "1";
 
@@ -17,5 +18,9 @@ switch ($grade) {
     case '5':
         echo "Failed";
         break;
+    default:
+        echo "Invalid grade";
+        break;
 }
 ?>
+
